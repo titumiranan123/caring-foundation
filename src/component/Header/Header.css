@@ -1,0 +1,60 @@
+.bg-slide-show {
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    background-image: url(../../../src/assets/slide-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    /* transform: scale(1.07); */
+    /* Set the initial scale to 1 */
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url('../../assets/slide-2.jpg');
+        /* transform: scale(1.09); */
+        /* Apply a zoom effect */
+    }
+
+    20% {
+        background-image: url('../../assets/slide-3.jpg');
+        /* transform: scale(1.05); */
+        /* Apply a zoom effect */
+    }
+
+    40% {
+        background-image: url('../../assets/slide-1.jpg');
+        /* transform: scale(1.09); */
+        /* Reset to the default scale */
+    }
+
+    60% {
+        background-image: url('../../assets/slide-2.jpg');
+        /* transform: scale(1.05); */
+        /* Apply a zoom effect */
+    }
+
+    80% {
+        background-image: url('../../assets/slide-3.jpg');
+        /* transform: scale(1.09); */
+        /* Apply a zoom effect */
+    }
+
+    100% {
+        background-image: url('../../assets/slide-2.jpg');
+        /* transform: scale(1.05); */
+        /* Apply a zoom effect */
+    }
+}
+
+.overly {
+    opacity: 0.8;
+}
