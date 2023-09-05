@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa';
 const Curiculam = () => {
     return (
         <div className='relative mt-10 mb-96'>
-            <div className={`h-[600px] md:w-[90%] relative bg-img md:h-[520px] mx-auto curiculam  flex justify-center items-center flex-col   `}>
+            <div className={`h-[600px] md:w-[90%] relative bg-img lg:h-[680px] md:h-[520px] mx-auto curiculam  flex justify-center items-center flex-col   `}>
                 <div className="lg:w-1/2 w-full p-4 md:p-14 space-y-5">
                     <p className='text-white font-bold text-xl'>ACTIVE SOCIETY</p>
                     <h1 className='text-white text-4xl font-bold'><span className='text-[#0074CC]'>Disabilities</span> feel empowered and inspired to redefine what is possible.</h1>
